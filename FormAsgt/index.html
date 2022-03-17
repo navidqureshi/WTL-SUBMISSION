@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <h1 class="items">Enter Your Information</h1>
+        <div class="items">
+            <label for="name" class="labels">Name</label>
+            <input class="inputs" id="name" type="text" placeholder="Enter you name here">
+        </div>
+        <br>
+        <div class="items">
+            <label class="labels" for="email">Email</label>
+            <input class="inputs" id="email" type="text" placeholder="Enter your email">
+        </div>
+        <br>
+        <div class="items">
+            <label for="age" class="labels">Age</label>
+            <input id = "age" class="inputs" type="number" min="15" max="100" placeholder="Enter your age">
+        </div>
+        <br>
+        <div class="items">
+            <p>Choose your Gender</p>
+            <ul id="gender-opts">
+                <li><input name="gender" type="radio" id = "male"><label for="male">Male</label></li>
+                <li><input name="gender" type="radio" id = "female"><label for="female">Female</label></li>
+                <li><input name="gender" type="radio" id = "other"><label for="other">Other</label></li>
+            </ul>
+        </div>
+        <br>
+        <input id="submitbtn" class="items"  type="submit" value="Submit">
+    </form>
+</body>
+</html>
